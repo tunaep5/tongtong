@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_name__",
+  "version": "1.0.0",
+  
+  "description": "__MSG_description__",
+  "default_locale": "ko",
+  "icons": {
+    "16": "img/icon_16.png",
+    "48": "img/icon_48.png",
+    "128": "img/icon_128.png"
+  },
+
+  "sidebar_action": {
+    "default_page": "index.html",
+    "default_icon": {
+      "16": "img/icon_16.png"
+    },
+    "default_title": "통통",
+    "use_navigation_bar": false
+  }
+}
