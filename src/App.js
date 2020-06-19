@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import Character from './Character'
-import Todo from './Todo'
-import About from './About'
+import Character from './components/Character'
+import Todo from './components/Todo'
+import About from './components/About'
 
 class App extends Component {
   render() {
