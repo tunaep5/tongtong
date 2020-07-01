@@ -1,0 +1,39 @@
+.TodoInput {
+  display: flex;
+  margin: 0.5rem 1rem;
+  padding-bottom: 0.05rem;
+  border-bottom: 1px solid #aaa;
+  input {
+    padding: 0.6rem 1rem;
+    color: #555;
+    outline: none;
+    border: none;
+    font-size: 1.02rem;
+    flex: 1;
+    &::placeholder {
+      color: #888;
+    }
+  }
+
+  button {
+    width: 2rem;
+    height: 2rem;
+    background-color: yellow;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    color: #555;
+    margin-right: 0.3rem;
+    cursor: pointer;
+    &:hover {
+      animation: tongtong 0.5s ease-in-out infinite;
+    }
+
+    @keyframes tongtong {
+      0% {transform: translateY(0);}
+      30% {transform: translateY(-7px);}
+      60% {transform: translateY(0);}
+      100% {transform: translateY(0);}
+    }
+  }
+}

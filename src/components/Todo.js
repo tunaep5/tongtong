@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import TodoInput from './TodoInput'
 
 class Todo extends Component {
   render() {
     return (
       <div className="Todo">
-        할 일 목록이 나타나요
+        <TodoInput />
       </div>
     )
   }
