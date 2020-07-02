@@ -6,9 +6,9 @@ class TodoList extends Component {
   render() {
     return (
       <ul className="TodoList">
-        <TodoListItem />
-        <TodoListItem />
-        <TodoListItem />
+        {this.props.todos.map(todo => (
+          <TodoListItem todo={todo} key={todo.id} />
+        ))}
       </ul>
     )
   }

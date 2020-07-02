@@ -12,12 +12,9 @@
   .todo-item {
     display: flex;
     flex: 1;
-    .checkbox {
-      margin-right: 0.5rem;
-      cursor: pointer;
-    }
     .text {
       flex: 1;
+      cursor: pointer;
     }
     &.checked {
       .text {
