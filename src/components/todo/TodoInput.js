@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../styles/TodoInput.scss'
+import './styles/TodoInput.scss'
 
 class TodoInput extends Component {
   render() {
