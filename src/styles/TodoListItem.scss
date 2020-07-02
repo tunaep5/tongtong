@@ -1,0 +1,36 @@
+.TodoListItem {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.7rem;
+  &:nth-child(odd) {
+    border: 1px solid rgb(89, 204, 204);
+  }
+  &:nth-child(even) {
+    border: 1px solid rgb(248, 160, 44);
+  }
+  .todo-item {
+    display: flex;
+    flex: 1;
+    .checkbox {
+      margin-right: 0.5rem;
+      cursor: pointer;
+    }
+    .text {
+      flex: 1;
+    }
+    &.checked {
+      .text {
+        color: gray;
+        text-decoration: line-through;
+      }
+    }
+  }
+  .remove {
+    border: none;
+    background-color: inherit;
+    &:hover {
+      color: red;
+    }
+  }
+}
